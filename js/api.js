@@ -22,7 +22,7 @@ const carregaLista = (json) => {
     lista.innerHTML = "";
 
     if (json.Response == 'False') {
-        alert("Nem um filme emcontrado");
+        alert("Nem um filme encontrado");
         return
     }
 
